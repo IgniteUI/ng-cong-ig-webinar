@@ -1,0 +1,66 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  height: 114px;
+  min-width: 50px;
+  min-height: 50px;
+  max-height: 114px;
+}
+.group_1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: stretch;
+  align-items: stretch;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.card {
+  margin: 16px;
+  width: 320px;
+  height: max-content;
+  min-width: 320px;
+  max-width: 320px;
+}
+.button-group {
+  height: max-content;
+  min-width: min-content;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
+.body-content {
+  min-width: 50px;
+  min-height: 50px;
+}
+.actions-content {
+  min-width: 50px;
+  min-height: 40px;
+}
+.icon-button {
+  --ig-size: var(--ig-size-small);
+}
+.image {
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+}
