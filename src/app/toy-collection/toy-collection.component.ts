@@ -2,8 +2,8 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { IGX_BUTTON_GROUP_DIRECTIVES, IGX_CARD_DIRECTIVES, IgxButtonDirective, IgxIconButtonDirective, IgxIconComponent, IgxOverlayOutletDirective, IgxRippleDirective, IgxToggleActionDirective, IgxToggleDirective } from 'igniteui-angular';
 import { Subject, take, takeUntil } from 'rxjs';
-import { ToyModel } from '../models/my-api/toy-model';
 import { CategoryModel } from '../models/my-api/category-model';
+import { ToyModel } from '../models/my-api/toy-model';
 import { MyAPIService } from '../services/my-api.service';
 
 @Component({

@@ -1,8 +1,8 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { catchError, Observable, of } from 'rxjs';
-import { ToyModel } from '../models/my-api/toy-model';
 import { CategoryModel } from '../models/my-api/category-model';
+import { ToyModel } from '../models/my-api/toy-model';
 import { ErrorHandlerService } from './error-handler.service';
 
 const API_ENDPOINT = 'https://toystoreapi.appbuilder.dev';
